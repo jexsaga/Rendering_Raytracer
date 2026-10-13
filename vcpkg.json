@@ -1,0 +1,13 @@
+{
+  "name": "minimal-pbr",
+  "version": "0.1.0",
+  "dependencies": [
+    "glm",
+    "glfw3",
+    "glad",
+    "stb",
+    { "name": "imgui", "features": ["glfw-binding", "opengl3-binding"] },
+    "assimp",
+    "portable-file-dialogs"
+  ]
+}
