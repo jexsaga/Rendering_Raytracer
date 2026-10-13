@@ -23,6 +23,13 @@ namespace mpbr
 
     struct Ray
     {
+        glm::vec3 origin;
+        glm::vec3 direction;
+
+        glm::vec3 pointAt(float t) const
+        {
+            return origin + t * direction;
+        };
     };
 
 }
